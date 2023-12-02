@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FootBallTeam">
+      <UniqueIdentifier>{b891099e-6c24-4f8c-b06f-7ea6a750b409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Match">
+      <UniqueIdentifier>{24228571-da85-4b56-b154-0f11cec34a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CTDL">
+      <UniqueIdentifier>{7cda8764-bb1c-4950-8e9d-3b1b38c4708b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLOBAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FootballTeam\Coach.cpp">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="FootballTeam\Human.cpp">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="FootballTeam\Player.cpp">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="FootballTeam\Team.cpp">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="Match\HistoryMatch.cpp">
+      <Filter>Source Files\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Match\Match.cpp">
+      <Filter>Source Files\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="CTDL\Vector.cpp">
+      <Filter>Source Files\CTDL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballTeam\Coach.h">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballTeam\Human.h">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballTeam\Player.h">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballTeam\Team.h">
+      <Filter>Source Files\FootBallTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="Match\HistoryMatch.h">
+      <Filter>Source Files\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="Match\Match.h">
+      <Filter>Source Files\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="CTDL\DBLL.h">
+      <Filter>Source Files\CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="CTDL\node.h">
+      <Filter>Source Files\CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="CTDL\String.h">
+      <Filter>Source Files\CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="CTDL\Vector.h">
+      <Filter>Source Files\CTDL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Coach.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Coach1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="DEMO.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="HistoryMatch.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Player.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Player1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Schedule.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Team.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Team1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

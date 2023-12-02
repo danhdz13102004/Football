@@ -1,0 +1,10 @@
+﻿  Team.cpp
+  GLOBAL.cpp
+  HistoryMatch.cpp
+  testfunc.cpp
+  Generating Code...
+main.obj : error LNK2005: "int __cdecl countLines(char const *)" (?countLines@@YAHPEBD@Z) already defined in GLOBAL.obj
+main.obj : error LNK2005: "bool __cdecl isFileEmpty(char const *)" (?isFileEmpty@@YA_NPEBD@Z) already defined in GLOBAL.obj
+main.obj : error LNK2005: main already defined in GLOBAL.obj
+testfunc.obj : error LNK2005: main already defined in GLOBAL.obj
+D:\MYPBL2\x64\Debug\MYPBL2.exe : fatal error LNK1169: one or more multiply defined symbols found
